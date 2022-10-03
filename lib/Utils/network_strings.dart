@@ -1,0 +1,29 @@
+class NetworkStrings {
+  static const String imageBaseUrl = "http://server.appsstaging.com:3013/";
+  static const String apiBaseUrl = "http://server.appsstaging.com:3013/api/";
+  static const String signupEndpoint = "register";
+  static const String loginEndpoint = "login";
+  static const String otpEndpoint = "verify-user";
+  static const String forgotPasswordEndpoint = "forgot-password";
+  static const String changePasswordEndpoint = "update-password";
+  static const String changeOlderPasswordEndpoint = "change-password";
+  static const String resendCodeEndpoint = "resend-code";
+  static const String logoutEndpoint = "logout";
+  static const String socialLoginEndpoint = "social-login";
+  static const String updateProfileEndpoint = "updateProfile";
+  static const String privacyPolicyEndpont = "get-content/privacy_policy";
+  static const String termsConditionEndpont = "get-content/terms_and_conditions";
+  static const String getProfileEndPoint = "user";
+  static const String getAllCategoryEndPoint = "getAllCategory/";
+  static const String getSubCategoryEndPoint = "getAllSubCategory/";
+  static const String getAllProductsEndPoint = "getAllProducts/";
+  static const String getAllRestaurantEndPoint = "getAllRestaurant";
+  static const String getProductDetailsEndPoint = "getProductDetails/";
+  static const String addOrderEndPoint = "addOrder";
+  static const String addOrRemoveFavoriteEndPoint = "favourite";
+  static const String getAllFavoriteEndPoint = "getFavourite";
+  static const String addCardEndPoint = "addCard";
+  static const String getCardDetailEndPoint = "getCardList";
+  static const String getRestaurantDetailEndPoint = "getRestaurant/";
+  static const String getPastOrdersEndPoint = "getPastOrders/";
+}
